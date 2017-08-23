@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyUIProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="menu_list">
+        <item>控件</item>
+        <item>动画</item>
+        <item>通信框架</item>
+        <item>导航</item>
+    </string-array>
+    <string-array name="menu_child_ui">
+        <item>圆形图片</item>
+        <item>自定义组件</item>
+        <item>RecyclerView</item>
+        <item>录音</item>
+    </string-array>
+    <string-array name="menu_child_anim">
+        <item>3D翻转</item>
+    </string-array>
+    <string-array name="menu_child_http">
+        <item>volley</item><!--早期使用HttpClient，后来使用HttpURLConnection，是谷歌2013年推出的网络请求框架，非常适合去进行数据量不大，但通信频繁的网络操作，而对于大数据量的网络操作，比如说下载文件等，Volley的表现就会非常糟糕。-->
+        <item>HttpURLConnection</item>
+        <item>okHttp</item><!--OkHttp是square自己实现的一个的一个http库，需要Android 2.3以上。OKHttp非常高效，支持SPDY、连接池、GZIP和 HTTP 缓存。默认情况下，OKHttp会自动处理常见的网络问题，像二次连接、SSL的握手问题。从Android4.4开始HttpURLConnection的底层实现采用的是okHttp。-->
+    </string-array>
+    <string-array name="menu_child_navigation">
+        <item>底部导航栏</item>
+    </string-array>
+</resources>
