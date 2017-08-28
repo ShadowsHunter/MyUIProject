@@ -8,12 +8,12 @@
         <item>动画</item>
         <item>通信框架</item>
         <item>导航</item>
+        <item>功能</item>
     </string-array>
     <string-array name="menu_child_ui">
         <item>圆形图片</item>
         <item>自定义组件</item>
         <item>RecyclerView</item>
-        <item>录音</item>
     </string-array>
     <string-array name="menu_child_anim">
         <item>3D翻转</item>
@@ -25,5 +25,9 @@
     </string-array>
     <string-array name="menu_child_navigation">
         <item>底部导航栏</item>
+    </string-array>
+    <string-array name="menu_child_function">
+        <item>录音</item>
+        <item>Mac地址</item>
     </string-array>
 </resources>

@@ -6,4 +6,15 @@
     <!--BottonNavigation-->
     <color name="tab_checked">#3F51B5</color>
     <color name="tab_unchecked">#757575</color>
+    <!--SoundRecord-->
+<!--    <color name="colorPrimary">#00bcd3</color>
+    <color name="colorPrimaryDark">#0097a7</color>-->
+    <color name="primary_light">#FFCDD2</color>
+    <color name="primary_text">#212121</color>
+    <!--<color name="colorAccent">#FFC107</color>-->
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#FFFFFF</color>
+    <color name="text">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_strip">#B42929</color>
 </resources>

@@ -33,6 +33,7 @@ public class LeftMenuListAdapter extends BaseExpandableListAdapter {
         childList.put(parentList.get(1),Arrays.asList(context.getResources().getStringArray(R.array.menu_child_anim)));
         childList.put(parentList.get(2),Arrays.asList(context.getResources().getStringArray(R.array.menu_child_http)));
         childList.put(parentList.get(3),Arrays.asList(context.getResources().getStringArray(R.array.menu_child_navigation)));
+        childList.put(parentList.get(4),Arrays.asList(context.getResources().getStringArray(R.array.menu_child_function)));
     }
 
     @Override

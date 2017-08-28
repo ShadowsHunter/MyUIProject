@@ -55,9 +55,7 @@ public class SlideMenuLeftFragmentFactory {
                     case 2://RecycleView
                         fragment = new RecyclerViewFragment();
                         break;
-                    case 3://SoundRecord
-                        fragment = new SoundRecordFragment();
-                        break;
+
                     default:
                         break;
                 }
@@ -91,6 +89,18 @@ public class SlideMenuLeftFragmentFactory {
                 {
                     case 0:
                         fragment = new BottomNavigationFragment();//底部导航栏
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            if(pos == 4){
+                switch (pos1){
+                    case 0://SoundRecord
+                        fragment = new SoundRecordFragment();
+                        break;
+                    case 1:
                         break;
                     default:
                         break;
