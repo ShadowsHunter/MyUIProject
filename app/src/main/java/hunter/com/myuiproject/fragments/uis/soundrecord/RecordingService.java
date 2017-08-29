@@ -68,9 +68,9 @@ public class RecordingService extends Service {
         mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         mRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);//录音文件保存的格式，这里保存为 mp4
         mRecorder.setOutputFile(mFilePath);
-        if(maxDuration!=0){//如果不为0，设置最大时长
-            mRecorder.setMaxDuration(maxDuration);
-        }
+//        if(maxDuration!=0){//如果不为0，设置最大时长
+//            mRecorder.setMaxDuration(maxDuration);
+//        }
         mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
         mRecorder.setAudioChannels(1);
         // 设置录音文件的清晰度
